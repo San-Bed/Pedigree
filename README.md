@@ -6,10 +6,10 @@ and examined the coalescence of ancestral lines. This was an assignment for my I
 
 ## Installation
 
-From `src` folder, run the following command, where `n` is the number of founders and `Tmax` is the duration.
+From root directory, run the following command, where `n` is the number of founders and `Tmax` is the duration.
 
 ```
-java pedigree/Runner n Tmax
+java -jar out/artifacts/pedigree_jar/pedigree.jar n Tmax
 ```
 After the simulation is completed, it will print on screen 3 data sets:
 
